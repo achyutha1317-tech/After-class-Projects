@@ -1,0 +1,76 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #e3ebf5;
+}
+
+#app{
+    width: 320px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#app-title{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #1a3d6d;
+    text-align: center;
+}
+
+#balance-label, #amount-label{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #555555;
+
+}
+
+#balance{
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a3d6d;
+    margin-top: 4px;
+}
+
+#amount{
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+#button-box{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.action{
+    padding: 10px 22px;
+    margin: 6px;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.credit{
+    background-color: #2e9e5b;
+}
+
+.debit{
+    background-color: #d14343;
+}
+
+#note{
+    text-decoration: line-through;
+    font-size: 11px;
+    color: #999999;
+    text-align: center;
+    margin-top: 18px;
+}
