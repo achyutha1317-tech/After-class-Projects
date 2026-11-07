@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Multiplication using Functions</title>
+    </head>
+    <body>
+
+        <h2>Multiplication using Functions</h2>
+        <p>Click the button to test Multiplication with an undefined parameter.</p>
+
+        <!--Button that invokes the function with one parameter defined-->
+        <button onclick="multiply(4)">Click Me!</button>
+
+        <!--Paragraph to display the result-->
+        <p id="result"></p>
+
+
+        <script>
+            
+            function multiply(a, b){
+                //check if the seconf parameter is undefined
+                if (b === undefined){
+                    alert("The value of b is undefined");
+                    b = 5; //Default value assigned if undefined
+                }
+
+                // Calculate the product
+                let result = a * b;
+
+                //Display the result in the paragraph tag
+                document.getElementById("result").innerHTML = "The product is: " + result;
+            }
+          
+
+
+        </script>
+
+    </body>
+</html>
