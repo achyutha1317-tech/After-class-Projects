@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+
+        <h2>Simple Calculator</h2>
+        <p>Perform all operations using JavaScript</p>
+        <p id="add"></p>
+        <p id="sub"></p>
+        <p id="mul"></p>
+        <p id="div"></p>
+
+
+        <script>
+
+            //Part 1: two variables
+
+          let num1 = 10;
+          let num2 = 2;
+          
+          //Part 2: the calculations  
+          let add = num1 + num2;
+          let sub = num1 - num2;
+          let mul = num1 * num2;
+          let div = num1 / num2;
+
+          //Part 3: show the answers
+
+          document.getElementById("add").innerHTML = "The added value is: " + add;
+          document.getElementById("sub").innerHTML = "The subtracted value is: " + sub;
+          document.getElementById("mul").innerHTML = "The multiplied value is: " + mul;
+          document.getElementById("div").innerHTML = "The divided value is: " + div;
+
+
+        </script>
+
+    </body>
+</html>
