@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Book Donation Form</title>
+    </head>
+    <body>
+        <h1>Book Donation Form</h1>
+
+        <form>
+            <fieldset>
+                <legend>Donor Details</legend>
+                <label>Your Name</label><br>
+                <input type="text"><br>
+                <label>Donor ID</label><br>
+                <input type="password"><br>
+                <label>Donation Date</label><br>
+                <input type="date"><br>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Book Details</legend>
+                <label>Book Category</label><br>
+                <select>
+                    <option>Fiction</option>
+                    <option>Science</option>
+                    <option>History</option>
+                    <option>Education</option>
+                </select><br>
+                <label>Book Condition</label><br>
+                <input type="radio" name="Condition"> like New<br>
+                <input type="radio" name="Condition"> Good<br>
+                <input type="radio" name="Condition"> Used<br>
+                
+                <label>Book Title or Notes</label><br>
+                <textarea rows="3" cols="35"></textarea>
+             </fieldset>
+
+             <fieldset>
+                <legend>Drop-off Days</legend>
+                <input type="checkbox"> Monday<br>
+                <input type="checkbox"> Wednesday<br>
+                <input type="checkbox"> Friday<br>
+             </fieldset>
+
+             <input type="submit" value="Donate My Book">
+            
+        </form>
+
+    </body>
+</html>
