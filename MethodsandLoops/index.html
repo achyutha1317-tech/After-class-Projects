@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Methods and Loops</title>
+    </head>
+    <body>
+
+        <h2>Methods and Loops</h2>
+        <p>Number from 1 to 10</p>
+        <p id="number"></p>
+        <p id="random"></p>
+        <p id="day"></p>
+
+
+        <script>
+
+            //Part 1: the number 1 to 10
+
+          let text = ""
+          let i;
+          for (i = 1; i <= 10; i++){
+               text += i + "<br>";
+            }
+          document.getElementById("number").innerHTML = text;
+
+          //Part 2: a random whole number  
+          let randomNumber = Math.floor(Math.random() * 100);
+          document.getElementById("random").innerHTML = "The random number is " + randomNumber
+
+          //Part 3: today's day number
+
+          let today = new Date().getDay();
+          document.getElementById("day").innerHTML = "Today's day number is " + today + "(0 is Sunday)";
+
+        </script>
+
+    </body>
+</html>
